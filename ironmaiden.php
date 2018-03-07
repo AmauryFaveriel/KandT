@@ -1,5 +1,5 @@
 <?php
-include_once "includes/header.php"
+include "includes/header.php"
 ?>
     <div class="container theme-showcase" role="main">
         <div class="jumbotron">
@@ -10,5 +10,5 @@ include_once "includes/header.php"
         <img class="img-thumbnail" alt="Iron Maiden" src="img/ironmaiden.jpg" data-holder-rendered="true">
     </div>
 <?php
-include_once "includes/footer.php";
+include "includes/footer.php";
 ?>
