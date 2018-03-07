@@ -5,6 +5,7 @@
  * Date: 07/03/2018
  * Time: 14:15
  */
+
 function addActive($link, $name) {
     $result='<li';
     if($link===basename($_SERVER['PHP_SELF'])){
