@@ -1,14 +1,33 @@
 <?php
+require_once "includes/connexion.php";
+define('APP_DEFAULT_PAGE', 'teletubbies');
+define('APP_PAGE_PARAM', 'p');
+
+if(isset($_GET[APP_PAGE_PARAM])) {
+    $currentPage = $_GET[APP_PAGE_PARAM];
+} else {
+    $currentPage = APP_DEFAULT_PAGE;
+}
+
+$requete="SELECT
+`slug`
+FROM
+`content`
+;";
+$stmt = $conn -> prepare($requete);
+$stmt -> execute();
+
+$test = false;
+while(false !== $row = $stmt -> fetch(PDO::FETCH_ASSOC)){
+    if($row['slug']===$currentPage){
+        $test=true;
+    }
+}
+if($test===false){
+    $currentPage=APP_DEFAULT_PAGE;
+}
+
 include "includes/header.php";
-require_once "includes/content.php";
-$page=$content['teletubbies'];
-?>
-    <div class="container theme-showcase" role="main">
-        <div class="jumbotron">
-            <h1><?=$page['h1'] ?></h1>
-            <p><?=$page['p'] ?></p>
-            <span class="label <?=$page['spanClass'] ?>"><?=$page['spanText'] ?></span>
-        </div>
-        <img class="img-thumbnail" alt="<?=$page['img-alt'] ?>" src="img/<?=$page['img-src'] ?>" data-holder-rendered="true">
-    </div>
-<?php include "includes/footer.php"; ?>
+include "includes/contentPage.php";
+include "includes/footer.php";
+

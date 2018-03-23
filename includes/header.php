@@ -1,5 +1,13 @@
 <?php
-require_once "includes/function.php";
+require_once "function.php";
+$requete="SELECT
+  `slug`,
+  `nav-title`
+FROM
+  `content`
+;";
+$stmt = $conn -> prepare($requete);
+$stmt ->execute();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,9 +27,11 @@ require_once "includes/function.php";
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <?=addActive('index.php','Teletubbies') ?>
-                    <?=addActive('kittens.php', 'Kittens') ?>
-                    <?=addActive('ironmaiden.php', 'Iron Maiden') ?>
+                    <?php
+                        while(false !== $row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                            echo addActive($row['slug'], $row['nav-title'], $currentPage);
+                        }
+                    ?>
                 </ul>
             </div>
         </div>

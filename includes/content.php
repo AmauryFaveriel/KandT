@@ -7,31 +7,29 @@
  */
 
 $content = [
-    'teletubbies' => [
+    'Teletubbies' => [
         'h1' => 'Les Teletubbies',
         'p' => 'C\'est flippant.',
         'spanClass' => 'label-danger',
         'spanText' => 'Danger',
-        'img-alt' => 'Teletubbies',
-        'img-src' => 'teletubbies.jpg',
-        'nav' => 'index.php'
+        'name' => 'Teletubbies',
+        'img-src' => 'teletubbies.jpg'
     ],
-    'kittens' => [
+    'Kittens' => [
         'h1' => 'Les Chatons!',
         'p' => 'C\'est mignon.',
         'spanClass' => 'label-success',
         'spanText' => 'Kawaiiii!',
-        'img-alt' => 'Kittens',
-        'img-src' => 'three_kittens.jpg',
-        'nav' => 'kittens.php'
+        'name' => 'Kittens',
+        'img-src' => 'three_kittens.jpg'
     ],
-    'ironmaiden' => [
+    'Iron maiden' => [
         'h1' => 'Iron Maiden!',
         'p' => 'C\'est vieux.',
         'spanClass' => 'label-success',
         'spanText' => 'SIX SIX SIX!!! the number of the beast!!',
-        'img-alt' => 'Iron Maiden',
-        'img-src' => 'ironmaiden.jpg',
-        'nav' => 'ironmaiden.php'
+        'name' => 'Iron maiden',
+        'img-src' => 'ironmaiden.jpg'
     ]
 ];
+

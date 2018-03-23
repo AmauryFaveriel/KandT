@@ -5,12 +5,16 @@
  * Date: 07/03/2018
  * Time: 14:15
  */
+require_once "content.php";
 
-function addActive($link, $name) {
-    $result='<li';
-    if($link===basename($_SERVER['PHP_SELF'])){
+function addActive($name, $navTitle, $currentPage)
+{
+
+    $result = '<li';
+    if($name===$currentPage) {
         $result.=' class="active"';
     }
-    $result.='><a href="'.$link.'">'.$name.'</a>';
+
+    $result.='><a href="index.php?p='.$name.'">'.$navTitle.'</a>';
     return $result;
 }
