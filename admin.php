@@ -64,6 +64,9 @@ $stmt -> execute();
             <th><?=$row['img-alt']?></th>
             <th><?=$row['img-src']?></th>
             <th><?=$row['nav-title']?></th>
+            <th>
+                <a href="delete.php?id=<?=$row['id']?>">Supprimer</a>
+            </th>
         </tr>
         <?php
             endwhile;
