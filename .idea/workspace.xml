@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ad14df6-185b-4be3-b55e-ce129e37b95f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/doAdd.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/doAdd.php" afterPath="$PROJECT_DIR$/doAdd.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,33 +63,21 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-              <folding>
-                <marker date="1521811660410" expanded="true" signature="45:92" ph="SELECT `slug... content" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="693">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
-                <marker date="1521811473019" expanded="true" signature="256:284" ph="SELECT `slug... content" />
+                <marker date="1521894263997" expanded="true" signature="256:284" ph="SELECT `slug... content" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connexion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/connexion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -129,13 +116,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doAdd.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="doAdd.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doAdd.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="693">
+              <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
               <folding>
-                <marker date="1521893313947" expanded="true" signature="877:1131" ph="INSERT INTO `content`... " />
+                <marker date="1521894084143" expanded="true" signature="877:1110" ph="INSERT INTO `content`... " />
               </folding>
             </state>
           </provider>
@@ -161,6 +148,17 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="content" pinned="false" current-in-tab="false">
+        <entry file="das://table:/66f426d6/b6363523-e5e0-445e-bdfa-85a5fa142b49/kandt.content">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="title" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -177,14 +175,14 @@
         <option value="$PROJECT_DIR$/includes/content.php" />
         <option value="$PROJECT_DIR$/includes/connexion.php" />
         <option value="$PROJECT_DIR$/includes/function.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/includes/contentPage.php" />
         <option value="$PROJECT_DIR$/sql/page.sql" />
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/add.php" />
         <option value="$PROJECT_DIR$/includes/doAdd.php" />
         <option value="$PROJECT_DIR$/doAdd.php" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -317,12 +315,12 @@
       <workItem from="1521195449296" duration="112000" />
       <workItem from="1521637846063" duration="9992000" />
       <workItem from="1521809227460" duration="4048000" />
-      <workItem from="1521888938130" duration="2348000" />
+      <workItem from="1521888938130" duration="3294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32279000" />
+    <option name="totallyTimeSpent" value="33225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
@@ -392,7 +390,7 @@
         <state relative-caret-position="126">
           <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
-            <marker date="1521811473019" expanded="true" signature="256:284" ph="SELECT `slug... content" />
+            <marker date="1521894263997" expanded="true" signature="256:284" ph="SELECT `slug... content" />
           </folding>
         </state>
       </provider>
@@ -419,9 +417,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-          <folding>
-            <marker date="1521811660410" expanded="true" signature="45:92" ph="SELECT `slug... content" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -437,9 +433,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <marker date="1521811660410" expanded="true" signature="45:92" ph="SELECT `slug... content" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -455,7 +449,7 @@
         <state relative-caret-position="420">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1521811473019" expanded="true" signature="256:284" ph="SELECT `slug... content" />
+            <marker date="1521894263997" expanded="true" signature="256:284" ph="SELECT `slug... content" />
           </folding>
         </state>
       </provider>
@@ -490,9 +484,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding>
-            <marker date="1521811660410" expanded="true" signature="45:92" ph="SELECT `slug... content" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -508,7 +500,7 @@
         <state relative-caret-position="336">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <marker date="1521811473019" expanded="true" signature="256:284" ph="SELECT `slug... content" />
+            <marker date="1521894263997" expanded="true" signature="256:284" ph="SELECT `slug... content" />
           </folding>
         </state>
       </provider>
@@ -550,9 +542,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-          <folding>
-            <marker date="1521811660410" expanded="true" signature="45:92" ph="SELECT `slug... content" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -569,7 +559,7 @@
         <state relative-caret-position="231">
           <caret line="11" column="90" lean-forward="false" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
           <folding>
-            <marker date="1521811473019" expanded="true" signature="256:284" ph="SELECT `slug... content" />
+            <marker date="1521894263997" expanded="true" signature="256:284" ph="SELECT `slug... content" />
           </folding>
         </state>
       </provider>
@@ -596,9 +586,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-          <folding>
-            <marker date="1521811660410" expanded="true" signature="45:92" ph="SELECT `slug... content" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +610,7 @@
         <state relative-caret-position="189">
           <caret line="9" column="90" lean-forward="false" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
           <folding>
-            <marker date="1521811473019" expanded="true" signature="256:284" ph="SELECT `slug... content" />
+            <marker date="1521894263997" expanded="true" signature="256:284" ph="SELECT `slug... content" />
           </folding>
         </state>
       </provider>
@@ -657,48 +645,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <marker date="1521811660410" expanded="true" signature="45:92" ph="SELECT `slug... content" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1521811473019" expanded="true" signature="256:284" ph="SELECT `slug... content" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/connexion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/66f426d6/b6363523-e5e0-445e-bdfa-85a5fa142b49/kandt.content">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="title" />
-          </filtering>
         </state>
       </provider>
     </entry>
@@ -730,14 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/page.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="47" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
@@ -748,10 +691,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doAdd.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="693">
+          <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
           <folding>
-            <marker date="1521893313947" expanded="true" signature="877:1131" ph="INSERT INTO `content`... " />
+            <marker date="1521894084143" expanded="true" signature="877:1110" ph="INSERT INTO `content`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/page.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="47" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/66f426d6/b6363523-e5e0-445e-bdfa-85a5fa142b49/kandt.content">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="title" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1521894263997" expanded="true" signature="256:284" ph="SELECT `slug... content" />
           </folding>
         </state>
       </provider>

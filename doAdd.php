@@ -39,14 +39,29 @@ $requete = "INSERT INTO
 )
 VALUES
 (
-  ':slug',
-  ':title',
-  ':h1',
-  ':p',
-  ':spanClass',
-  ':spanText',
-  ':img-alt',
-  ':img-src',
-  ':nav-title'
+  :slug,
+  :title,
+  :h1,
+  :p,
+  :spanClass,
+  :spanText,
+  :imgAlt,
+  :imgSrc,
+  :navTitle
 );";
 
+$uploadFile = 'img/'.$_FILES['img-src']['name'];
+move_uploaded_file($_FILES['img-src']['tmp_name'], $uploadFile);
+
+$stmt = $conn -> prepare($requete);
+$stmt -> bindValue(':slug', htmlspecialchars($_POST['slug']));
+$stmt -> bindValue(':title', htmlspecialchars($_POST['title']));
+$stmt -> bindValue(':h1', htmlspecialchars($_POST['h1']));
+$stmt -> bindValue(':p', htmlspecialchars($_POST['p']));
+$stmt -> bindValue(':spanClass', htmlspecialchars($_POST['spanClass']));
+$stmt -> bindValue(':spanText', htmlspecialchars($_POST['spanText']));
+$stmt -> bindValue(':imgAlt', htmlspecialchars($_POST['img-alt']));
+$stmt -> bindValue(':navTitle', htmlspecialchars($_POST['nav-title']));
+$stmt -> bindValue(':imgSrc', htmlspecialchars($_FILES['img-src']['name']));
+$stmt -> execute();
+header('Location:admin.php');
