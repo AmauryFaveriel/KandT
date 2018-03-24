@@ -13,6 +13,7 @@ if(!isset($_GET['id'])){
 
 require_once 'includes/connexion.php';
 $requete = "SELECT
+    `id`,
     `slug`
     FROM
     `content`
