@@ -35,6 +35,8 @@ $stmt -> execute();
     <title>Document</title>
 </head>
 <body>
+    <h1>Panneau administrateur</h1>
+    <a href="add.php">Ajouter une nouvelle page</a>
     <table style="width: 100%">
         <tr>
             <th>Id</th>
