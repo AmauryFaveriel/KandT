@@ -66,6 +66,7 @@ $stmt -> execute();
             <th><?=$row['nav-title']?></th>
             <th>
                 <a href="delete.php?id=<?=$row['id']?>">Supprimer</a>
+                <a href="edit.php?id=<?=$row['id']?>">Modifier</a>
             </th>
         </tr>
         <?php
