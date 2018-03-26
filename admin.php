@@ -73,5 +73,6 @@ $stmt -> execute();
             endwhile;
         ?>
     </table>
+    <a href="index.php">Retour à l'index</a>
 </body>
 </html>
