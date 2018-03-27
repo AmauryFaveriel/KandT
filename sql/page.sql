@@ -68,3 +68,18 @@ DELETE FROM
 WHERE
 `id` = ':id'
 ;
+
+CREATE TABLE content
+(
+  id          INT(10) AUTO_INCREMENT
+    PRIMARY KEY,
+  slug        VARCHAR(255)  NOT NULL,
+  title       VARCHAR(110)  NOT NULL,
+  h1          VARCHAR(60)   NOT NULL,
+  p           VARCHAR(3000) NOT NULL,
+  spanClass   VARCHAR(50)   NOT NULL,
+  spanText    VARCHAR(100)  NOT NULL,
+  `img-alt`   VARCHAR(100)  NOT NULL,
+  `img-src`   VARCHAR(2048) NOT NULL,
+  `nav-title` VARCHAR(30)   NOT NULL
+);

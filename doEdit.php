@@ -6,10 +6,18 @@
  * Time: 12:08
  */
 
-if (empty($_POST['id']) || empty($_POST['slug']) || empty($_POST['title']) || empty($_POST['h1']) || empty($_POST['p']) || empty($_POST['spanClass']) || empty($_POST['spanText']) || empty($_POST['img-alt']) || empty($_POST['nav-title'])){
-    header('Location:edit.php?error=Veuillez remplir tous les champs');
-    exit;
-}
+if (empty($_POST['id']) ||
+    empty($_POST['slug']) ||
+    empty($_POST['title']) ||
+    empty($_POST['h1']) ||
+    empty($_POST['p']) ||
+    empty($_POST['spanClass']) ||
+    empty($_POST['spanText']) ||
+    empty($_POST['img-alt']) ||
+    empty($_POST['nav-title'])) {
+        header('Location:edit.php?error=Veuillez remplir tous les champs');
+        exit;
+    }
 
 require_once 'includes/connexion.php';
 
