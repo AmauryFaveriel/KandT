@@ -51,7 +51,11 @@ $row = $stmt -> fetch(PDO::FETCH_ASSOC);
     <label for="title">Title </label> : <input type="text" name="title" id="title" value="<?=$row['title']?>"><br>
     <label for="h1">H1</label> : <input type="text" name="h1" id="h1" value="<?=$row['h1']?>"><br>
     <label for="p">p </label> : <input type="text" name="p" id="p" value="<?=$row['p']?>"><br>
-    <label for="spanClass">Span Class </label> : <input type="text" name="spanClass" id="spanClass" value="<?=$row['spanClass']?>"><br>
+    <label for="spanClass">Span Class </label> :
+    <select name="spanClass" id="spanClass">
+        <option value="label-success">Succès</option>
+        <option value="label-danger">Danger</option>
+    </select><br>
     <label for="spanText">Span Text </label> : <input type="text" name="spanText" id="spanText" value="<?=$row['spanText']?>"><br>
     <label for="img-alt">Image alt </label> : <input type="text" name="img-alt" id="img-alt" value="<?=$row['img-alt']?>"><br>
     <label for="nav-title">Navigation Title </label> : <input type="text" name="nav-title" id="nav-title" value="<?=$row['nav-title']?>"><br>
