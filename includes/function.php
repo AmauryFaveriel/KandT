@@ -5,7 +5,6 @@
  * Date: 07/03/2018
  * Time: 14:15
  */
-require_once "content.php";
 
 function addActive($name, $navTitle, $currentPage)
 {
