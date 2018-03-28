@@ -17,7 +17,6 @@ $stmt = $conn -> prepare($requete);
 $stmt -> bindValue(':slug', $currentPage);
 $stmt -> execute();
 $row = $stmt -> fetch(PDO::FETCH_ASSOC);
-echo $currentPage;
 ?>
 
 <div class="container theme-showcase" role="main">
